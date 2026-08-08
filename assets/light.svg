@@ -1,0 +1,80 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="850" height="430" viewBox="0 0 850 430">
+  <style>
+    .terminal {
+      font-family: Menlo, Monaco, Consolas, "Fira Code", "Courier New", monospace;
+      font-size: 11.5px;
+      font-weight: 500;
+    }
+    .ascii {
+      font-family: Menlo, Monaco, Consolas, "Fira Code", "Courier New", monospace;
+      font-size: 8px;
+      font-weight: bold;
+      line-height: 11.5px;
+      letter-spacing: 1px;
+    }
+  </style>
+  
+  <!-- Background Board -->
+  <rect width="850" height="430" rx="12" fill="#f6f8fa" stroke="#d0d7de" stroke-width="2" />
+  
+  <!-- Terminal Title Bar -->
+  <path d="M 2,12 A 10,10 0 0 1 12,2 L 838,2 A 10,10 0 0 1 848,12 L 848,32 L 2,32 Z" fill="#eaeef2" />
+  <circle cx="20" cy="17" r="5" fill="#ff5f56" />
+  <circle cx="36" cy="17" r="5" fill="#ffbd2e" />
+  <circle cx="52" cy="17" r="5" fill="#27c93f" />
+  <text x="80" y="21" fill="#57606a" font-family="Menlo, Monaco, Consolas, monospace" font-size="11" font-weight="bold">naksusen / README.md</text>
+  
+  <!-- Left Column: ASCII Portrait -->
+  <text class="ascii" fill="#007a99" xml:space="preserve">
+<tspan x="30" y="75.0">%%%%%%%%%%%*--*%%%%%%%%%%%%%%%%%%%%%%%#*#%%%%%%%</tspan>
+<tspan x="30" y="86.5">%%%%%%%%%%%*-:*%#%%##%%%%%%%%%%%%%%%%%%%%%%%%%%%</tspan>
+<tspan x="30" y="98.0">%%%%%%%%%##*-:+###%%%%%%%%%%%#%%%%%%%%%%%%%%%%%%</tspan>
+<tspan x="30" y="109.5">%%%%%%%%%##*-:+##%@@@@%#%@@@@@%%%%%%%%%%%%%%%%%%</tspan>
+<tspan x="30" y="121.0">%%%%%%%####*-:+#@@@@@@@%##%@%#%%%%%%%%%##%%%%%%%</tspan>
+<tspan x="30" y="132.5">###########*-:+@@@@@@@@@*+*---=#@%%%%%%%%%%%%%%%</tspan>
+<tspan x="30" y="144.0">###########*-:*@@@@@@@%++*:::--=%%%%%%##%%%%#%%%</tspan>
+<tspan x="30" y="155.5">###########*-:*@@@@@@#+*#===--=+#%%%%%%%%%%%##%%</tspan>
+<tspan x="30" y="167.0">-=+*#######*-:*@@%@@#+=**+*+:-=*#%%%%%%%%%%%%%%%</tspan>
+<tspan x="30" y="178.5">...:-=+*####*#@@*+%%%**+::-:---=*%%%%%#%%%%#*%%%</tspan>
+<tspan x="30" y="190.0">.......:-=*##@@@%=+###%+-::-==-:+%%%%%%%%%%%%%%%</tspan>
+<tspan x="30" y="201.5">.........-*##%@@@@%%%*#=--:--==-#%%%%%%%%%%#%%%%</tspan>
+<tspan x="30" y="213.0">......:-=+####%@@@@@@%#+---=+*+*%%%%%%%%%%%##%%%</tspan>
+<tspan x="30" y="224.5">..:-=+*##########@%#%@@%*=----=*#%%%%%%%%%%%%%%%</tspan>
+<tspan x="30" y="236.0">++*###*+==*#####%@@#+##%@@%#****#%%%%##%%%%%%%%%</tspan>
+<tspan x="30" y="247.5">%%#+=-:..:+####%@@@@@@@%@@@@%%%%%#%%%#*#%%%%%%%%</tspan>
+<tspan x="30" y="259.0">%#%+.....:+#%%@@@@@@@@@@@@@@@@@@%%%%%%%%%%%**#%%</tspan>
+<tspan x="30" y="270.5">%%%#:..-=*%@@@@@@@@@@@@@@@@@@@@@@@@@@@%%%%%##%%%</tspan>
+<tspan x="30" y="282.0">%%%*.-%@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@%%%%%%%%</tspan>
+<tspan x="30" y="293.5">%%%++@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@%%%%%%%</tspan>
+<tspan x="30" y="305.0">%%#*@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@%#%%%%%</tspan>
+<tspan x="30" y="316.5">%#-%@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@#%%%%%</tspan>
+<tspan x="30" y="328.0">%**@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@%%%%%%</tspan>
+<tspan x="30" y="339.5">%%@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@%%%%%%</tspan>
+<tspan x="30" y="351.0">%%@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@%%%%%</tspan>
+<tspan x="30" y="362.5">%%@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@%%%%%</tspan>
+  </text>
+  
+  <!-- Right Column: System Info details -->
+  <text class="terminal" fill="#24292f" xml:space="preserve">
+<tspan x="365" y="72"><tspan fill="#005f73" font-weight="bold">naksusen</tspan> <tspan fill="#8c959f">----------------------------------------------------------</tspan></tspan>
+<tspan x="365" y="87.5"><tspan fill="#24292f">. Subject:</tspan><tspan fill="#8c959f">.............. </tspan><tspan fill="#424a53">Janet</tspan></tspan>
+<tspan x="365" y="103.0"><tspan fill="#24292f">. Role:</tspan><tspan fill="#8c959f">................. </tspan><tspan fill="#424a53">QA Analyst</tspan></tspan>
+<tspan x="365" y="118.5"><tspan fill="#24292f">. Origin:</tspan><tspan fill="#8c959f">............... </tspan><tspan fill="#424a53">Manila, Philippines</tspan></tspan>
+<tspan x="365" y="134.0"><tspan fill="#24292f">. Status:</tspan><tspan fill="#8c959f">............... </tspan><tspan fill="#424a53">Building • Learning • Single?</tspan></tspan>
+<tspan x="365" y="149.5"><tspan fill="#24292f">. ToolChain:</tspan><tspan fill="#8c959f">............ </tspan><tspan fill="#424a53">VS Code, Git, Figma, Netlify</tspan></tspan>
+<tspan x="365" y="180.5"><tspan fill="#24292f">. Tech.Core:</tspan><tspan fill="#8c959f">............ </tspan><tspan fill="#424a53">Java, Python, Dart</tspan></tspan>
+<tspan x="365" y="196.0"><tspan fill="#24292f">. Tech.Web:</tspan><tspan fill="#8c959f">............. </tspan><tspan fill="#424a53">JavaScript, TypeScript, React, Next.js, Node.js</tspan></tspan>
+<tspan x="365" y="211.5"><tspan fill="#24292f">. Tech.Mobile:</tspan><tspan fill="#8c959f">.......... </tspan><tspan fill="#424a53">Flutter, Dart</tspan></tspan>
+<tspan x="365" y="227.0"><tspan fill="#24292f">. Tech.Backend:</tspan><tspan fill="#8c959f">......... </tspan><tspan fill="#424a53">PHP, MySQL, PostgreSQL, Supabase, Firebase, SQLite</tspan></tspan>
+<tspan x="365" y="242.5"><tspan fill="#24292f">. Tech.Tools:</tspan><tspan fill="#8c959f">........... </tspan><tspan fill="#424a53">Git, Figma, Canva, Inkscape, VS Code</tspan></tspan>
+<tspan x="365" y="273.5"><tspan fill="#cf222e" font-weight="bold">- Contact</tspan> <tspan fill="#8c959f">----------------------------------------------</tspan></tspan>
+<tspan x="365" y="289.0"><tspan fill="#24292f">. Gmail:</tspan><tspan fill="#8c959f">................ </tspan><tspan fill="#424a53">janetbulao07@gmail.com</tspan></tspan>
+<tspan x="365" y="304.5"><tspan fill="#24292f">. Portfolio:</tspan><tspan fill="#8c959f">............ </tspan><tspan fill="#424a53">https://naksusen.vercel.app/</tspan></tspan>
+<tspan x="365" y="320.0"><tspan fill="#24292f">. LinkedIn:</tspan><tspan fill="#8c959f">............. </tspan><tspan fill="#424a53">https://www.linkedin.com/in/janet-b-86721b330/</tspan></tspan>
+<tspan x="365" y="335.5"><tspan fill="#24292f">. Github:</tspan><tspan fill="#8c959f">............... </tspan><tspan fill="#424a53">naksusen</tspan></tspan>
+<tspan x="365" y="366.5"><tspan fill="#cf222e" font-weight="bold">- GitHub Stats</tspan> <tspan fill="#8c959f">-----------------------------------------</tspan></tspan>
+<tspan x="365" y="382.0"><tspan fill="#24292f">. Repos: .... </tspan><tspan fill="#424a53">11 </tspan><tspan fill="#24292f">{Contributed: 16 } | Stars: ............ </tspan><tspan fill="#424a53">3</tspan></tspan>
+<tspan x="365" y="397.5"><tspan fill="#24292f">. Commits: ....................... </tspan><tspan fill="#424a53">94 </tspan><tspan fill="#24292f">| Followers: ........ </tspan><tspan fill="#424a53">7</tspan></tspan>
+<tspan x="365" y="413.0"><tspan fill="#24292f">. Lines of Code on GitHub:. </tspan><tspan fill="#424a53">30,154 </tspan><tspan fill="#24292f">( </tspan><tspan fill="#1a7f37">39,896++</tspan><tspan fill="#24292f">, </tspan><tspan fill="#cf222e">9,742--</tspan><tspan fill="#24292f"> )</tspan></tspan>
+  </text>
+</svg>
