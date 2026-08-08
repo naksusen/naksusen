@@ -5,9 +5,3 @@
     <img alt="Janet's Terminal Profile Card" src="assets/dark.svg" width="850">
   </picture>
 </div>
-
----
-
-<p align="center">
-  Generated dynamically with a Python script and GitHub Actions. 
-</p>
